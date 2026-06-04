@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 28 17:06:37 2022
+Apply isotropy measures to word2vec embeddings with jitter/clustering perturbations.
 
-@author: anna
+Designed for cell-by-cell execution in Spyder or VS Code interactive mode.
+Requires alternate_isotropy_measures.py to be loaded in the session.
 """
 
 import gensim.downloader

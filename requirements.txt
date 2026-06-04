@@ -1,0 +1,8 @@
+numpy
+scipy
+scikit-learn
+faiss-cpu
+matplotlib
+seaborn
+sympy
+gensim

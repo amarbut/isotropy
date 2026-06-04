@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Feb 21 14:14:35 2022
+Interactive exploration of isotropy measures across synthetic embedding spaces.
 
-@author: anna
+Designed for cell-by-cell execution in Spyder or VS Code interactive mode.
+Requires latent_space_simulation.py to be run first (defines the synthetic
+embedding variables referenced throughout).
+
+Run order:
+    1. latent_space_simulation.py  -- generates synthetic embeddings
+    2. this file                   -- computes and visualizes measures
 """
 import numpy as np
 from sklearn.decomposition import PCA
