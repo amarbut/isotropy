@@ -1,0 +1,42 @@
+# Paper draft files
+ICML_version.*
+isotropy_measures_neurips_2022.tex
+biblio.bib
+*.aux
+*.log
+
+# LaTeX style/template directories
+icml2022/
+icml2023/
+icml2023 (1)/
+latex_files/
+Neurips/
+__MACOSX/
+
+# Paper output files
+ICML_Reliable_Measures_of_Data_Spread.pdf
+ICML\ Poster.pdf
+ICML\ Poster\ Talk.pptx
+ICML_Paper_QRCode.png
+*.sty
+*.bst
+
+# Temp
+temp_file.py
+
+# Internal working documents
+comments_kmb.docx
+
+# Duplicate figures directory (clean_viz/ is the canonical version)
+images/
+
+# Standalone reference/derivation PDFs (not code outputs)
+KL_gaussian_derivation.pdf
+empirical_kl.pdf
+kl_divergence_normality.pdf
+koleo_entropy.pdf
+less_entropy.pdf
+max_entropy.pdf
+n_dim_spheres.pdf
+pielou_evenness.pdf
+vasicek_diff_entropy.pdf
