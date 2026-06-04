@@ -29,6 +29,7 @@ comments_kmb.docx
 
 # Duplicate figures directory (clean_viz/ is the canonical version)
 images/
+clean_viz/
 
 # Standalone reference/derivation PDFs (not code outputs)
 KL_gaussian_derivation.pdf
