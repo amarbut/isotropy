@@ -41,3 +41,6 @@ n_dim_spheres.pdf
 pielou_evenness.pdf
 vasicek_diff_entropy.pdf
 scratch.py
+
+#data files
+*.csv
