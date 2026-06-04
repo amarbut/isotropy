@@ -21,18 +21,12 @@ We show that EEE and VRM are more reliable estimators of actual data spread acro
 
 ```
 alternate_isotropy_measures.py   # Core implementations of all measures (ACS, I(V), EEE, VRM, others)
-latent_space_simulation.py       # Generates synthetic embedding spaces with controlled geometry
-latent_space_models.py           # Latent space model utilities
+latent_space_models.py           # Generates synthetic data distributions
 word2vec_measures.py             # Applies measures to word2vec embeddings
 isotropy_explore.py              # Interactive analysis scripts (designed for Spyder / VS Code interactive)
 isotropy_results.py              # Results aggregation and visualization scripts
 ```
 
-**Result data:**
-- `isotropy_measures*.csv` — measure values across synthetic spaces of varying dimensionality (2, 10, 50, 100)
-- `disc_entropy_results.csv` — discrete entropy results
-
-**Figures (`clean_viz/`):** Final paper figures
 
 ## Key Dependencies
 
